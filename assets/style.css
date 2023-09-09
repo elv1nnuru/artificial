@@ -189,3 +189,126 @@
          margin-top: 30px;
      }
  }
+
+ /* introduction2 */
+
+ section.introduction2 .intro-left-side img {
+    width: 725px;
+ }
+
+ section.introduction2 .intro-right-side h1{
+    color: #fff;
+    width: 484px;
+
+}
+
+section.introduction2 .intro-right-side p{
+    color: #fff;
+    width: 460px;
+}
+
+section.introduction2 .intro-right-side button{
+    background-color: #3A68B8;
+    padding: 15px 30px;
+    display: inline-flex;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    border-color: transparent   
+}
+
+.introduction2{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width:768px) {
+ 
+    section.introduction2 {
+     display: flex;
+     flex-direction: column;
+
+}
+
+section.introduction2 .intro-left-side {
+    width: 200px;
+}
+section.introduction2 .intro-left-side img{
+    width: 100%;
+}
+ 
+section.introduction2 .intro-right-side h1{
+    width: 370px;
+    margin-left: 100px;
+    font-size: 20px;
+    
+}
+
+section.introduction2 .intro-right-side p{
+    width: 250px;
+    margin-left: 90px;
+    font-size: 20px;
+    
+}
+
+section.introduction2 .intro-right-side button{
+    margin-left: 100px;
+    
+}
+    
+ }
+
+ @media(min-width:576px) and (max-width:850px) {
+
+    section.introduction2 {
+        display: flex;
+        flex-direction: row;
+    }
+
+    section.introduction2 .intro-left-side {
+        width: 700px;
+    }
+    section.introduction2 .intro-left-side img{
+        width: 100%;
+    }
+
+    section.introduction2 .intro-right-side h1{
+     
+        font-size: 35px;
+    }
+
+    section.introduction2 .intro-right-side p{
+
+        font-size: 20px;
+    }
+    
+ }
+
+ @media(min-width:851px) {
+    section.introduction2 {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    section.introduction2 .intro-left-side {
+        width: 550px;
+    }
+    section.introduction2 .intro-left-side img{
+        width: 100%;
+    }
+
+    section.introduction2 .intro-right-side h1{
+     
+        font-size: 45px;
+    }
+
+    section.introduction2 .intro-right-side p{
+
+        font-size: 35px;
+    }
+
+
+
+ }
